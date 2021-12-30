@@ -7,9 +7,8 @@ from math import floor
 from pathlib import Path
 
 from zeph.drivers import adaptive_driver, check_measurement_finished
-from zeph.prefix import create_bgp_radix, create_bgp_prefixes
+from zeph.prefix import create_bgp_prefixes, create_bgp_radix
 from zeph.selectors import EpsilonDFGSelector
-
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)

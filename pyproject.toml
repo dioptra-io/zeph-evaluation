@@ -6,9 +6,12 @@ authors = ["matthieugouel <matthieu.gouel@protonmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+zeph = "^0.0.16"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+flake8 = "^4.0.1"
+black = {version = "^21.12b0", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
