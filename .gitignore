@@ -152,3 +152,9 @@ cython_debug/
 #.idea/
 
 .vscode/
+
+# Configuration files
+config/config.py
+
+# Resources files
+resources/

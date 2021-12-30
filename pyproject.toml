@@ -5,8 +5,8 @@ description = ""
 authors = ["matthieugouel <matthieu.gouel@protonmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-zeph = "^0.0.16"
+python = ">=3.8,<3.10"
+zeph = {path = "../zeph"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
