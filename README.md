@@ -1,6 +1,8 @@
 # 🌬️ Zeph - Paper evaluation
 
-This is the evaluation scripts for [Zeph](https://github.com/dioptra-io/zeph). 
+This is the evaluation scripts for [Zeph](https://github.com/dioptra-io/zeph) used for the evaluation section of the paper.  
+You can replicate the results of the paper by running the analysis scripts with your Iris credentials on the same dataset.  
+You can also create your own dataset by running the experiment scripts with your Iris credentials.
 
 # 🧪 Experiments
 
