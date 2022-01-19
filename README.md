@@ -6,7 +6,8 @@ You can also create your own dataset by running the experiment scripts with your
 
 # 🧪 Experiments
 
-In this repository, you can find the following experiments:
+In order to run the experiments, simply copy the configuration example to `config/config.py`
+and add your Iris credentials in the new create file. 
 
 ## Experiment 1
 
@@ -31,6 +32,12 @@ will allow more to be discovered than allocating prefixes to agents randomly (wi
 
 * Execution notebook: [exp3_experiment.ipynb](exp3_experiment.ipynb)
 * Analysis notebook: [exp3_analysis.ipynb](exp3_analysis.ipynb)
+
+## Exploitation analysis
+
+*Hypothesis*: the exploitation budget of Zeph will be responsible of the most part of nodes and links discoveries. 
+
+* Analysis notebook: [exploitation_analysis.ipynb](exploitation_analysis.ipynb)
 
 ## 📚 Publications
 
