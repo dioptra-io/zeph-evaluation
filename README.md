@@ -1,13 +1,17 @@
 # 🌬️ Zeph - Paper evaluation
 
-This is the evaluation scripts for [Zeph](https://github.com/dioptra-io/zeph) used for the evaluation section of the paper.  
-You can replicate the results of the paper by running the analysis scripts with your Iris credentials on the same dataset.  
-You can also create your own dataset by running the experiment scripts with your Iris credentials.
+This is the scripts for used for the evaluation section of [Zeph](https://github.com/dioptra-io/zeph)'s paper.  
+With this repository you are able to: 
+* recreate your own dataset of the experiments on [Iris](https://github.com/dioptra-io/iris)
+* replicate the results of the paper by running the analysis scripts on your dataset or on the dataset used in the paper
 
 # 🧪 Experiments
 
-In order to run the experiments, simply copy the configuration example to `config/config.py`
-and add your Iris credentials in the new create file. 
+In order to run the experiments and the analysis, simply copy the configuration example from `config/config.example.py` to `config/config.py`
+and add your Iris credentials in the new created file.  
+Optionnaly, you can change the iris URL to use your own Iris instance. 
+
+If you want to run the analysis on the same dataset used in the papier, download the dataset from [here]() and extract it in the root directory of the repository with the name `resources`.
 
 ## Experiment 1
 
@@ -37,6 +41,7 @@ will allow more to be discovered than allocating prefixes to agents randomly (wi
 
 *Hypothesis*: the exploitation budget of Zeph will be responsible of the most part of nodes and links discoveries. 
 
+* Execution notebook: based on one experiment of [exp1_experiment.ipynb](exp1_experiment.ipynb)
 * Analysis notebook: [exploitation_analysis.ipynb](exploitation_analysis.ipynb)
 
 ## 📚 Publications
