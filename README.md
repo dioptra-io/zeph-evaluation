@@ -11,7 +11,7 @@ In order to run the experiments and the analysis, simply copy the configuration 
 and add your Iris credentials in the new created file.  
 Optionnaly, you can change the iris URL to use your own Iris instance. 
 
-If you want to run the analysis on the same dataset used in the papier, download the dataset from [here]() and extract it in the root directory of the repository with the name `resources`.
+If you want to run the analysis on the same dataset used in the papier, download the dataset from [here](https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz) and extract it in the root directory of the repository with the name `resources`.
 
 ## Experiment 1
 
