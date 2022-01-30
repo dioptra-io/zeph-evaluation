@@ -1,3 +1,0 @@
-[submodule "zeph"]
-	path = zeph
-	url = https://github.com/dioptra-io/zeph.git

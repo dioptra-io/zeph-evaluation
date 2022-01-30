@@ -166,7 +166,7 @@ pycparser = "*"
 
 [[package]]
 name = "charset-normalizer"
-version = "2.0.10"
+version = "2.0.11"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
 category = "main"
 optional = false
@@ -236,6 +236,21 @@ orjson = ">=3.6.5,<4.0.0"
 pygfc = ">=1.0.3,<2.0.0"
 requests = ">=2.26.0,<3.0.0"
 zstandard = ">=0.15.2,<0.17.0"
+
+[[package]]
+name = "dioptra-zeph"
+version = "1.0.0"
+description = "An orchestrator for distributed IP tracing"
+category = "main"
+optional = false
+python-versions = ">=3.8,<3.10"
+
+[package.dependencies]
+diamond-miner = ">=0.5.1,<0.6.0"
+mrtparse = ">=2.0.1,<3.0.0"
+py-radix = ">=0.10.0,<0.11.0"
+requests = ">=2.25.0,<3.0.0"
+typer = ">=0.3.2,<0.4.0"
 
 [[package]]
 name = "entrypoints"
@@ -1288,26 +1303,6 @@ optional = ["python-socks", "wsaccel"]
 test = ["websockets"]
 
 [[package]]
-name = "zeph"
-version = "0.1.0"
-description = ""
-category = "main"
-optional = false
-python-versions = ">=3.8,<3.10"
-develop = true
-
-[package.dependencies]
-diamond-miner = "^0.5.1"
-mrtparse = "^2.0.1"
-py-radix = "^0.10.0"
-requests = "^2.25.0"
-typer = "^0.3.2"
-
-[package.source]
-type = "directory"
-url = "zeph"
-
-[[package]]
 name = "zipp"
 version = "3.7.0"
 description = "Backport of pathlib-compatible object wrapper for zip files"
@@ -1336,7 +1331,7 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.10"
-content-hash = "7c714983e841f42629d74baa3219016e35d1b79127b9e2443ca4e7f1f22a86fc"
+content-hash = "102e2b9f2306474084066b4fb5d2edb1ef6f4a8eab4d1d6b6f8a28a67f2886f2"
 
 [metadata.files]
 anyio = [
@@ -1459,8 +1454,8 @@ cffi = [
     {file = "cffi-1.15.0.tar.gz", hash = "sha256:920f0d66a896c2d99f0adbb391f990a84091179542c205fa53ce5787aff87954"},
 ]
 charset-normalizer = [
-    {file = "charset-normalizer-2.0.10.tar.gz", hash = "sha256:876d180e9d7432c5d1dfd4c5d26b72f099d503e8fcc0feb7532c9289be60fcbd"},
-    {file = "charset_normalizer-2.0.10-py3-none-any.whl", hash = "sha256:cb957888737fc0bbcd78e3df769addb41fd1ff8cf950dc9e7ad7793f1bf44455"},
+    {file = "charset-normalizer-2.0.11.tar.gz", hash = "sha256:98398a9d69ee80548c762ba991a4728bfc3836768ed226b3945908d1a688371c"},
+    {file = "charset_normalizer-2.0.11-py3-none-any.whl", hash = "sha256:2842d8f5e82a1f6aa437380934d5e1cd4fcf2003b06fed6940769c164a480a45"},
 ]
 click = [
     {file = "click-7.1.2-py2.py3-none-any.whl", hash = "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"},
@@ -1518,6 +1513,10 @@ diamond-miner = [
     {file = "diamond_miner-0.5.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:01a52e6ff99acbaa79ad2d892b372514d8166e4d5ef612ad77dbea8257beb374"},
     {file = "diamond_miner-0.5.5-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3f88ea349e933353ba4ba44fedefe560267228d75f87252629520c6290cae3c9"},
     {file = "diamond_miner-0.5.5-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fc16bde913cd88cc7d33c21f14bba5fa1b25599aaa23d34f9eb01955d25d347c"},
+]
+dioptra-zeph = [
+    {file = "dioptra-zeph-1.0.0.tar.gz", hash = "sha256:73e13e33f567bfbd5ececfd8b8374f272cab63d8194889ce052eaa0ab9349f62"},
+    {file = "dioptra_zeph-1.0.0-py3-none-any.whl", hash = "sha256:bd3249f55c75c46d73d45065381bfaa10e701476040f062b4fbd33f492501bce"},
 ]
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
@@ -2256,7 +2255,6 @@ websocket-client = [
     {file = "websocket-client-1.2.3.tar.gz", hash = "sha256:1315816c0acc508997eb3ae03b9d3ff619c9d12d544c9a9b553704b1cc4f6af5"},
     {file = "websocket_client-1.2.3-py3-none-any.whl", hash = "sha256:2eed4cc58e4d65613ed6114af2f380f7910ff416fc8c46947f6e76b6815f56c0"},
 ]
-zeph = []
 zipp = [
     {file = "zipp-3.7.0-py3-none-any.whl", hash = "sha256:b47250dd24f92b7dd6a0a8fc5244da14608f3ca90a5efcd37a3b1642fac9a375"},
     {file = "zipp-3.7.0.tar.gz", hash = "sha256:9f50f446828eb9d45b267433fd3e9da8d801f614129124863f9c51ebceafb87d"},
