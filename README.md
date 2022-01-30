@@ -1,7 +1,6 @@
 # 🌬️ Zeph — Evaluation
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dioptra-io/zeph-evaluation/HEAD)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dioptra-io/zeph-evaluation)
 
 This repository contains the code used to produce the results of the evalution section of the *Zeph & Iris* paper.
 
