@@ -10,7 +10,7 @@ The Python notebooks provided in this repository allow you to:
 - perform your own measurements from the [Iris platform](https://iris.dioptra.io) to reproduce the dataset used in the paper
 - reproduce the analysis presented in the paper, either on your own dataset, or on the original dataset used in the paper
 
-In addition, the source code of Zeph and Iris are available in the [dioptra-io/zeph](https://github.com/dioptra-io/zeph) and [dioptra-io/iris](https://github.com/dioptra-io/zeph) repositories.
+In addition, the source code of Zeph and Iris are available in the [dioptra-io/zeph](https://github.com/dioptra-io/zeph) and [dioptra-io/iris](https://github.com/dioptra-io/iris) repositories.
 
 ## 🧪 Experiments
 
