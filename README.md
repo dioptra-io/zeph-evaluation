@@ -1,5 +1,7 @@
 # 🌬️ Zeph — Evaluation
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dioptra-io/zeph-evaluation/HEAD)
+
 This repository contains the code used to produce the results of the evalution section of the *Zeph & Iris* paper.
 
 > When available: add plain text citation here.
@@ -7,6 +9,8 @@ This repository contains the code used to produce the results of the evalution s
 The Python notebooks provided in this repository allow you to:
 - perform your own measurements from the [Iris platform](https://iris.dioptra.io) to reproduce the dataset used in the paper
 - reproduce the analysis presented in the paper, either on your own dataset, or on the original dataset used in the paper
+
+In addition, the source code of Zeph and Iris are available in the [dioptra-io/zeph](https://github.com/dioptra-io/zeph) and [dioptra-io/iris](https://github.com/dioptra-io/zeph) repositories.
 
 ## 🧪 Experiments
 
@@ -21,6 +25,7 @@ If you want to run the analysis on the same dataset as used in the paper, downlo
 > **Hypothesis**  
 > Zeph will be able to see almost the same as complete discovery
 (= full IPv4 routable prefixes) but with a much-reduced probing budget.
+
 
 * Execution notebook: [exp1_experiment.ipynb](exp1_experiment.ipynb)
 * Analysis notebook: [exp1_analysis.ipynb](exp1_analysis.ipynb)
