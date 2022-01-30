@@ -16,7 +16,7 @@ In addition, the source code of Zeph and Iris are available in the [dioptra-io/z
 
 Two notebooks are provided for each experiments: the *execution notebook* which contains the code to perform the measurements, and the *analysis notebook* which contains the code to analyse the measurement results and generate the plots.
 
-To run these notebooks, copy the sample configuration file [`config/config.example.py`](config/config.example.py) to `config/config.py` and fill-in your Iris credentials.
+To run these notebooks, copy the sample configuration file [`config.example.json`](config.example.json) to `config.json` and fill-in your Iris credentials.
 
 If you want to run the analysis on the same dataset as used in the paper, download [`zeph-evaluation-dataset.tar.gz`](https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz) (650MB) and extract it at the root of the repository:
 ```bash

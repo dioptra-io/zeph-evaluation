@@ -154,7 +154,8 @@ cython_debug/
 .vscode/
 
 # Configuration files
-config/config.py
+config.json
 
 # Resources files
 resources/
+zeph-evaluation-dataset.tar.gz
