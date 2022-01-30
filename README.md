@@ -18,7 +18,11 @@ Two notebooks are provided for each experiments: the *execution notebook* which 
 
 To run these notebooks, copy the sample configuration file [`config/config.example.py`](config/config.example.py) to `config/config.py` and fill-in your Iris credentials.
 
-If you want to run the analysis on the same dataset as used in the paper, download the following dataset from and extract it in the root directory of the repository in a directory named `resources`: [`zeph-evaluation-dataset.tar.gz`](https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz) (650MB).
+If you want to run the analysis on the same dataset as used in the paper, download [`zeph-evaluation-dataset.tar.gz`](https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz) (650MB) and extract it at the root of the repository:
+```bash
+wget https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz
+tar xf zeph-evaluation-dataset.tar.gz
+```
 
 ### Experiment 1
 
