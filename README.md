@@ -5,8 +5,6 @@
 
 This repository contains the code used to produce the results of the evalution section of the *Zeph & Iris* paper.
 
-> When available: add plain text citation here.
-
 The Python notebooks provided in this repository allow you to:
 - perform your own measurements from the [Iris platform](https://iris.dioptra.io) to reproduce the dataset used in the paper
 - reproduce the analysis presented in the paper, either on your own dataset, or on the original dataset used in the paper
