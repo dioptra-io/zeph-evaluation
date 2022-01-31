@@ -12,8 +12,6 @@ In addition, the source code of Zeph and Iris are available in the [`dioptra-io/
 
 ## 🧪 Experiments
 
-Two notebooks are provided for each experiments: the *execution notebook* which contains the code to perform the measurements, and the *analysis notebook* which contains the code to analyse the measurement results and generate the plots.
-
 ### Prerequisites
 
 1. Copy the sample configuration file [`config.example.json`](config.example.json) to `config.json` and fill-in your Iris credentials.
@@ -23,41 +21,16 @@ wget https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz
 tar xf zeph-evaluation-dataset.tar.gz
 ```
 
-### Experiment 1
+### Notebooks
 
-> **Hypothesis**  
-> Zeph will be able to see almost the same as complete discovery
-(= full IPv4 routable prefixes) but with a much-reduced probing budget.
+Two notebooks are provided for each section: the *execution notebook* which contains the code to perform the measurements, and the *analysis notebook* which contains the code to analyse the measurement results and generate the plots.
 
-
-* Execution notebook: [exp1_experiment.ipynb](exp1_experiment.ipynb)
-* Analysis notebook: [exp1_analysis.ipynb](exp1_analysis.ipynb)
-
-### Experiment 2
-
-> **Hypothesis**  
-> For the same per-agent probing budget, allocating prefixes to agents based on an adaptive approach
-(with the possibility of a prefix to be probed from any number from 0 to n agents)
-will allow more to be discovered than allocating prefixes to agents randomly (with each prefix being probed from precisely one agent).
-
-* Execution notebook: [exp2_experiment.ipynb](exp2_experiment.ipynb)
-* Analysis notebook: [exp2_analysis.ipynb](exp2_analysis.ipynb)
-
-### Experiment 3
-
-> **Hypothesis**  
-> Zeph will work at scale with Diamond-Miner. 
-
-* Execution notebook: [exp3_experiment.ipynb](exp3_experiment.ipynb)
-* Analysis notebook: [exp3_analysis.ipynb](exp3_analysis.ipynb)
-
-### Exploitation analysis
-
-> **Hypothesis**  
-> The exploitation budget of Zeph will be responsible of the most part of nodes and links discoveries. 
-
-* Execution notebook: based on one experiment of [exp1_experiment.ipynb](exp1_experiment.ipynb)
-* Analysis notebook: [exploitation_analysis.ipynb](exploitation_analysis.ipynb)
+Section | Execution | Analysis
+--------|-----------|---------
+§6.2.1 — Zeph's reinforcement learning approach outperforms random allocation | [exp2_experiment.ipynb](exp2_experiment.ipynb) | [exp2_analysis.ipynb](exp2_analysis.ipynb)
+§6.2.2 — Zeph/Iris conducting multipath traceroutes performs competitively with respect to current state-of-the-art internet scale topology discovery systems | [exp3_experiment.ipynb](exp3_experiment.ipynb) | [exp3_analysis.ipynb](exp3_analysis.ipynb)
+§6.3 — Zeph probe savings | [exp1_experiment.ipynb](exp1_experiment.ipynb) | [exp1_analysis.ipynb](exp1_analysis.ipynb)
+§6.4 — Reinforcement learning analysis | [exp1_experiment.ipynb](exp1_experiment.ipynb) | [exploitation_analysis.ipynb](exploitation_analysis.ipynb)
 
 ## 📚 Publications
 
