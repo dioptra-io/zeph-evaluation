@@ -27,10 +27,10 @@ Two notebooks are provided for each section: the *execution notebook* which cont
 
 Section | Execution | Analysis
 --------|-----------|---------
-§6.2.1 — Zeph's reinforcement learning approach outperforms random allocation | [exp2_experiment.ipynb](exp2_experiment.ipynb) | [exp2_analysis.ipynb](exp2_analysis.ipynb)
-§6.2.2 — Zeph/Iris conducting multipath traceroutes performs competitively with respect to current state-of-the-art internet scale topology discovery systems | [exp3_experiment.ipynb](exp3_experiment.ipynb) | [exp3_analysis.ipynb](exp3_analysis.ipynb)
-§6.3 — Zeph probe savings | [exp1_experiment.ipynb](exp1_experiment.ipynb) | [exp1_analysis.ipynb](exp1_analysis.ipynb)
-§6.4 — Reinforcement learning analysis | [exp1_experiment.ipynb](exp1_experiment.ipynb) | [exploitation_analysis.ipynb](exploitation_analysis.ipynb)
+§6.2.1 — Zeph's reinforcement learning approach outperforms random allocation | [`zeph_allocation_execution.ipynb`](notebooks/zeph_allocation_execution.ipynb) | [`zeph_allocation_analysis.ipynb`](notebooks/zeph_allocation_analysis.ipynb)
+§6.2.2 — Zeph/Iris conducting multipath traceroutes performs competitively with respect to current state-of-the-art internet scale topology discovery systems | [`zeph_topology_execution.ipynb`](notebooks/zeph_topology_execution.ipynb) | [`zeph_topology_analysis.ipynb`](notebooks/zeph_topology_analysis.ipynb)
+§6.3 — Zeph probe savings | [`zeph_savings_execution.ipynb`](notebooks/zeph_savings_execution.ipynb) | [`zeph_savings_analysis.ipynb`](notebooks/zeph_savings_analysis.ipynb)
+§6.4 — Reinforcement learning analysis | [`zeph_savings_execution.ipynb`](notebooks/zeph_savings_execution.ipynb) | [`rl_analysis.ipynb`](notebooks/rl_analysis.ipynb)
 
 ## 📚 Publications
 
