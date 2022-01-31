@@ -17,8 +17,7 @@ In addition, the source code of Zeph and Iris are available in the [`dioptra-io/
 1. Copy the sample configuration file [`config.example.json`](config.example.json) to `config.json` and fill-in your Iris credentials.
 2.  Download [`zeph-evaluation-dataset.tar.gz`](https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz) (650MB) and extract it at the root of the repository:
 ```bash
-wget https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz
-tar xf zeph-evaluation-dataset.tar.gz
+curl -L https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz | tar x
 ```
 
 ### Notebooks
