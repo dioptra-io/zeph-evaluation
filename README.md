@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dioptra-io/zeph-evaluation/HEAD)
 
-This repository contains the code used to produce the results of the evalution section of the *Zeph & Iris* paper.
+This repository contains the code used to produce the results of the evalution section of the *Zeph & Iris* paper, forthcoming in the January 2022 issue of _ACM SIGCOMM Computer Communication Review_.
 
 The Python notebooks provided in this repository allow you to:
 - perform your own measurements from the [Iris platform](https://iris.dioptra.io) to reproduce the dataset used in the paper
