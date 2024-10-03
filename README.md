@@ -1,3 +1,7 @@
+## Important Notice
+**DUE TO SUPPORT ISSUES, IRIS IS NOT CURRENTLY AVAILABLE AS A SERVICE TO THE PUBLIC TO RUN THEIR MEASUREMENTS.
+WE HOPE TO MAKE IRIS AVAILABLE AGAIN TO THE PUBLIC IN THE NEAR FUTURE.**
+
 # 🌬️ Zeph — Evaluation
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dioptra-io/zeph-evaluation/HEAD)
