@@ -37,8 +37,6 @@ Section | Execution | Analysis
 
 ## 📚 Publications
 
-## 📚 Publications
-
 ```bibtex
 @article{10.1145/3523230.3523232,
 author = {Gouel, Matthieu and Vermeulen, Kevin and Mouchet, Maxime and Rohrer, Justin P. and Fourmaux, Olivier and Friedman, Timur},
