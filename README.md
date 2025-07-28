@@ -1,28 +1,32 @@
 ## Important Notice
-**DUE TO SUPPORT ISSUES, IRIS IS NOT CURRENTLY AVAILABLE AS A SERVICE TO THE PUBLIC TO RUN THEIR MEASUREMENTS.
-WE HOPE TO MAKE IRIS AVAILABLE AGAIN TO THE PUBLIC IN THE NEAR FUTURE.**
+**DUE TO SUPPORT ISSUES, THE IRIS SYSTEM IS NO LONGER AVAILABLE AS A
+PUBLIC SERVICE FOR RUNNING INDEPENDENT MEASUREMENTS.
+HOWEVER, IRIS DATA CONTINUES TO BE PUBLISHED AND IS ACCESSIBLE TO
+THE PUBLIC VIA [M-LAB](https://www.measurementlab.net).
+FOR MORE INFORMATION, PLEASE VISIT [IPRS](https://iprs.dioptra.io).**
 
 # 🌬️ Zeph — Evaluation
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dioptra-io/zeph-evaluation/HEAD)
 
-This repository contains the code used to produce the results of the evalution section of the *Zeph & Iris* paper.
+This repository contains the code used to generate the results
+presented in the evaluation section of the *Zeph & Iris* paper.
+Please note, however, that the current versions of Zeph and Iris
+available in the [`dioptra-io/zeph`](https://github.com/dioptra-io/zeph)
+and [`dioptra-io/iris`](https://github.com/dioptra-io/iris)
+repositories, differ from the exact versions used in the paper. If
+you require the specific commit SHA1s corresponding to the versions
+used in the publication, feel free to open an issue.
 
-The Python notebooks provided in this repository allow you to:
-- perform your own measurements from the [Iris platform](https://iris.dioptra.io) to reproduce the dataset used in the paper
-- reproduce the analysis presented in the paper, either on your own dataset, or on the original dataset used in the paper
-
-In addition, the source code of Zeph and Iris are available in the [`dioptra-io/zeph`](https://github.com/dioptra-io/zeph) and [`dioptra-io/iris`](https://github.com/dioptra-io/iris) repositories.
+You can download Iris source code and run your own instance of Iris
+but please note that we are unable to provide support.
 
 ## 🧪 Experiments
 
 ### Prerequisites
 
-1. Copy the sample configuration file [`config.example.json`](config.example.json) to `config.json` and fill-in your Iris credentials.
-2.  Download [`zeph-evaluation-dataset.tar.gz`](https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz) (650MB) and extract it at the root of the repository:
-```bash
-curl -L https://minio.iris.dioptra.io/public/zeph-evaluation-dataset.tar.gz | tar x
-```
+1. Set up your own Iris instance.
+2. Download [`zeph-evaluation-dataset.tar.gz`](https://github.com/dioptra-io/zeph-evaluation/releases/tag/v1.0.0).
 
 ### Notebooks
 
